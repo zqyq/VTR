@@ -17,8 +17,12 @@ git clone https://github.com/openai/CLIP.git
 pip install -e CLIP/
 ```
 
+## Dataset
+You can download the dataset at this [link](https://pan.baidu.com/s/1-7ELT53x0M7pt8IG93adcg?pwd=cagb) code: cagb 
+We have ShapeNetRendering dataset and ShapeNetVox32 dataset. ShapeNetRendering dataset has images of object, ShapeNetVox32 dataset has the voxel representation of object.
+
 ## Dependencies
-- python
+- python==3.9
 - pytorch & torchvision
 - tensorboardX
 - numpy
@@ -33,7 +37,11 @@ pip install -e CLIP/
 - pix2vox++, following their [instruction](https://gitlab.com/hzxie/Pix2Vox)
 - LRGT, following their [instruction](https://github.com/LiyingCV/Long-Range-Grouping-Transformer)
 - Zero123, following their [instruction](https://github.com/cvlab-columbia/zero123/tree/main)
+You can also use command to install requirements.txt
 
+```
+pip install -r requirements.txt
+```
 
 
 ## Training
